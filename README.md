@@ -1,14 +1,16 @@
-# Arduino Project: LED Blinker (Example)
+# Arduino Project: LED Blinker 
 
 ## Overview
-This project is my first step into Arduino programming. It demonstrates basic control of LEDs using digital pins, timing functions, and control loops
+This project is my first step into Arduino programming. It demonstrates basic control of LEDs using digital pins, timing functions, and control loops. This project helped me build a solid foundation in Arduino programming and hardware logic, preparing me for more advanced robotics projects.
+
 ---
 
 ## Components Used
 - Arduino Uno  
 - 1 LED 
 - 220Ω resistor  
-- Breadboard and jumper wires  
+- Breadboard
+- Jumper wires  
 
 ---
 
@@ -20,9 +22,41 @@ This project is my first step into Arduino programming. It demonstrates basic co
 ---
 
 ## Concepts Learned
-- Digital output using '''digitalWrite()
-- Timing using '''delay()
-- Using loops (for, while) for repeating and stopping patterns
-- Setting up - initializing pins with '''pinMode()
+- Digital output using ```digitalWrite()
+- Timing using ```delay()
+- Using loops (```for, ```while) for repeating and stopping patterns
+- Setting up - initializing pins with ```pinMode()
 - Difference in usage of external and builtin LED
-- Significance of and difference between void setup() and void loop()
+- Significance of and difference between ```void setup() and ```void loop()
+- Handling of electronic hardware
+
+---
+
+## Project
+
+### Default
+The LED blinks ON and OFF every 1 second.
+- file: LED_Blinker.ino
+[YouTube Demo](https://www.youtube.com)
+
+### Modifications 
+1. **Pattern Blinker** - LED blinks 5 times (0.5s each), stays ON for 3s, OFF for 2s, and then reoeats.
+   - file: LED_Blinker_Fast.ino
+   [YouTube Demo](https://www.youtube.com)
+
+2. **Blink then stop** - LED blinks 5 times (1s each), and then stops permanently using while(true)
+   - file: LED_Blinker_5Times.ino
+   [YouTube Demo](https://www.youtube.com)
+
+3. **External LED Setup** - Used a physical LED connected via resistor to pin 7
+   - file: LED_Blinker_External.ino
+   [YouTube Demo](https://www.youtube.com)
+
+---
+
+
+
+
+
+
+
