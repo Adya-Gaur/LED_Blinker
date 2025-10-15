@@ -5,8 +5,8 @@ This project is my first step into Arduino programming. It demonstrates basic co
 ---
 
 ## Components Used
-- Arduino Uno (or compatible board)  
-- 1 LED (any color)  
+- Arduino Uno  
+- 1 LED 
 - 220Ω resistor  
 - Breadboard and jumper wires  
 
@@ -19,3 +19,10 @@ This project is my first step into Arduino programming. It demonstrates basic co
 
 ---
 
+## Concepts Learned
+- Digital output using '''digitalWrite()
+- Timing using '''delay()
+- Using loops (for, while) for repeating and stopping patterns
+- Setting up - initializing pins with '''pinMode()
+- Difference in usage of external and builtin LED
+- Significance of and difference between void setup() and void loop()
