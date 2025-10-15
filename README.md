@@ -39,7 +39,7 @@ The LED blinks ON and OFF every 1 second.
 [YouTube Demo](https://www.youtube.com)
 
 ### Modifications 
-1. **Pattern Blinker** - LED blinks 5 times (0.5s each), stays ON for 3s, OFF for 2s, and then reoeats.
+1. **Pattern Blinker** - LED blinks 5 times (0.5s each), stays ON for 3s, OFF for 2s, and then repeats.
    [YouTube Demo](https://www.youtube.com)
 
 2. **Blink then stop** - LED blinks 5 times (1s each), and then stops permanently using while(true)
