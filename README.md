@@ -22,12 +22,12 @@ This project is my first step into Arduino programming. It demonstrates basic co
 ---
 
 ## Concepts Learned
-- Digital output using ```digitalWrite()
-- Timing using ```delay()
-- Using loops (```for, ```while) for repeating and stopping patterns
-- Setting up - initializing pins with ```pinMode()
+- Digital output using `digitalWrite()`
+- Timing using `delay()`
+- Using loops (`for, while`) for repeating and stopping patterns
+- Setting up - initializing pins with `pinMode()`
 - Difference in usage of external and builtin LED
-- Significance of and difference between ```void setup() and ```void loop()
+- Significance of and difference between `void setup()` and `void loop()`
 - Handling of electronic hardware
 
 ---
