@@ -36,16 +36,16 @@ This project is my first step into Arduino programming. It demonstrates basic co
 
 ### Default
 The LED blinks ON and OFF every 1 second.
-[YouTube Demo](https://www.youtube.com)
+[YouTube Demo](https://youtu.be/QjsxAf_fp9I)
 
 ### Modifications 
 1. **Pattern Blinker** - LED blinks 5 times (0.5s each), stays ON for 3s, OFF for 2s, and then repeats.
-   [YouTube Demo](https://www.youtube.com)
+   [YouTube Demo](https://youtu.be/UOXqDNhhTAQ)
 
 2. **Blink then stop** - LED blinks 5 times (1s each), and then stops permanently using `while(true)`
-   [YouTube Demo](https://www.youtube.com)
+   [YouTube Demo](https://youtu.be/wsPqvPB8XEM)
 
 3. **External LED Setup** - Used a physical LED connected via resistor to pin 7
-   [YouTube Demo](https://www.youtube.com)
+   [YouTube Demo](https://youtu.be/5vtjpIAREMg)
 
 ---
