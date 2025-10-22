@@ -9,9 +9,9 @@ void loop()
   for(int i=1; i<=5; i++)
   {
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(500);
+    delay(200);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    delay(200);
     //This loop turns led on and off 5 times for 0.5s each time
   }
   digitalWrite(LED_BUILTIN, HIGH);
