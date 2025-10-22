@@ -4,7 +4,7 @@
 int ledPin = 7; //Using Pin no. 7 for the external LED
 void setup()
 {
-  pinMode(ledPin, OUTPUT) //Set LED pin as output
+  pinMode(ledPin, OUTPUT); //Set LED pin as output
 }
 void loop()
 {
